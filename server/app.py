@@ -23,4 +23,4 @@ def messages_by_id(id):
     return ''
 
 if __name__ == '__main__':
-    app.run(port=5555)
+    app.run(port=5555, debug=True)
